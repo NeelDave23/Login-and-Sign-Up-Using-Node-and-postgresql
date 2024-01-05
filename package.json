@@ -1,0 +1,24 @@
+{
+  "name": "login-and-sign-up-using-node-and-postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.2",
+    "pg": "^8.11.3"
+  }
+}
